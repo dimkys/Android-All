@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dimkysik.multi2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ListActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".Startuem"
+            android:label="Startuem">
+        </activity>
+        <activity android:name=".Seting"
+            android:label="Settup">
+        </activity>
+        <activity android:name=".About"
+            android:label="About">
+        </activity>
+        <activity android:name=".Exit"
+            android:label="Exit">
+        </activity>
+
+        <activity android:name=".AVP.Video"
+            android:label="Video">
+        </activity>
+        <activity android:name=".AVP.Audio"
+            android:label="Audio">
+        </activity>
+        <activity android:name=".AVP.Picture"
+            android:label="Picture">
+        </activity>
+        <activity android:name=".AVP.Camers"
+            android:label="Camers">
+        </activity>
+        <activity android:name=".gesture.Gesture"
+            android:label="Gesture">
+        </activity>
+
+    </application>
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+</manifest>
